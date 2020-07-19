@@ -1,27 +1,3 @@
-/*
-<<<<<<< HEAD
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-=======
-*/
 /* global JitsiMeetJS config*/
 import React, { useState, useCallback, useEffect, useMemo } from 'react';
 import './App.css';
@@ -181,8 +157,8 @@ function App() {
         { mainState === 'loading' && 'Loading' }
         { mainState === 'started' &&
         <div style={{
-          height: '100vh', width: '100vw', maxHeight: '100vw', maxWidth: '100vh',
-          background: 'rgba(0, 100,100, 1)',
+          height: '10vh', width: '10vw', maxHeight: '10vw', maxWidth: '10vh',
+          background: 'rgba(0, 0,100, 1)',
           position: 'relative',
           borderRadius: '100%'
       }}>
